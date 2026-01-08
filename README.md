@@ -49,7 +49,7 @@ FLASK-PROJECT/
 
 2. **Create a virtual environment**
 
-   ```bash
+   ```b
    python3 -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
@@ -57,14 +57,14 @@ FLASK-PROJECT/
 
 3. **Install dependencies**
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
 4. **Set up environment variables**
    Create a `.env` file in the root folder:
 
-   ```env
+   ```
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=yourpassword
@@ -77,7 +77,7 @@ FLASK-PROJECT/
 
 Since this project uses **Uvicorn**:
 
-```bash
+```
 uvicorn app.main:app --reload
 ```
 
@@ -103,14 +103,6 @@ uvicorn app.main:app --reload
 * MySQL Connector (or pymysql)
 * python-dotenv
 * Uvicorn (ASGI server)
-
----
-
-## Screenshots
-
-![Project Screenshot](./screenshot.png)  <!-- Replace with your actual screenshot -->
-
----
 
 ## License
 
