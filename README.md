@@ -49,7 +49,7 @@ FLASK-PROJECT/
 
 2. **Create a virtual environment**
 
-   ```b
+   ```
    python3 -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
