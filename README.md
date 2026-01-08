@@ -49,27 +49,27 @@ FLASK-PROJECT/
 
 2. **Create a virtual environment**
 
-   ```
+   ````
    python3 -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
-   ```
+   ````
 
 3. **Install dependencies**
 
-   ```
+   ````
    pip install -r requirements.txt
-   ```
+   ````
 
 4. **Set up environment variables**
    Create a `.env` file in the root folder:
 
-   ```
+   ````
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=yourpassword
    DB_NAME=yourdatabase
-   ```
+   ````
 
 ---
 
@@ -77,9 +77,9 @@ FLASK-PROJECT/
 
 Since this project uses **Uvicorn**:
 
-```
+````
 uvicorn app.main:app --reload
-```
+````
 
 * The app will be available at `http://127.0.0.1:8000`.
 * `--reload` automatically restarts the server on code changes.
